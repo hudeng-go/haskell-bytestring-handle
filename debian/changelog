@@ -1,0 +1,81 @@
+haskell-bytestring-handle (0.1.0.6-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:36:52 +0800
+
+haskell-bytestring-handle (0.1.0.6-5) unstable; urgency=medium
+
+  * Sourceful upload for GHC 8.8.
+
+ -- Clint Adams <clint@debian.org>  Fri, 05 Jun 2020 13:04:08 -0400
+
+haskell-bytestring-handle (0.1.0.6-4) unstable; urgency=medium
+
+  * Patch for newer base/quickcheck2
+
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Thu, 04 Oct 2018 17:58:42 +0300
+
+haskell-bytestring-handle (0.1.0.6-3) unstable; urgency=medium
+
+  [ Clint Adams ]
+  * Set Rules-Requires-Root to no.
+
+  [ Ilias Tsitsimpis ]
+  * Bump debhelper compat level to 10
+
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Sun, 30 Sep 2018 21:03:19 +0300
+
+haskell-bytestring-handle (0.1.0.6-2) unstable; urgency=medium
+
+  [ Ilias Tsitsimpis ]
+  * Use salsa.debian.org URLs in Vcs-{Browser,Git} fields
+
+  [ Clint Adams ]
+  * Bump to Standards-Version 4.1.4.
+
+ -- Clint Adams <clint@debian.org>  Mon, 09 Apr 2018 20:04:43 -0400
+
+haskell-bytestring-handle (0.1.0.6-1) unstable; urgency=medium
+
+  [ Ilias Tsitsimpis ]
+  * Change Priority to optional. Since Debian Policy version 4.0.1,
+    priority extra has been deprecated.
+  * Use the HTTPS form of the copyright-format URL
+  * Modify d/watch and Source field in d/copyright to use HTTPS
+  * Declare compliance with Debian policy 4.1.1
+
+  [ Clint Adams ]
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Sun, 17 Dec 2017 08:48:15 -0500
+
+haskell-bytestring-handle (0.1.0.5-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Sat, 17 Jun 2017 13:52:17 -0400
+
+haskell-bytestring-handle (0.1.0.4-3) unstable; urgency=medium
+
+  * Upload to unstable as part of GHC 8 transition.
+
+ -- Clint Adams <clint@debian.org>  Thu, 27 Oct 2016 18:32:41 -0400
+
+haskell-bytestring-handle (0.1.0.4-2) experimental; urgency=medium
+
+  * Temporarily build-depend on ghc 8.
+
+ -- Clint Adams <clint@debian.org>  Sun, 16 Oct 2016 15:08:54 -0400
+
+haskell-bytestring-handle (0.1.0.4-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Joachim Breitner <nomeata@debian.org>  Wed, 01 Jun 2016 12:46:10 +0200
+
+haskell-bytestring-handle (0.1.0.3-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Clint Adams <clint@debian.org>  Tue, 24 May 2016 11:09:55 -0400

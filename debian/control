@@ -1,0 +1,84 @@
+Source: haskell-bytestring-handle
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders:
+ Clint Adams <clint@debian.org>,
+Priority: optional
+Section: haskell
+Rules-Requires-Root: no
+Build-Depends:
+ cdbs,
+ debhelper (>= 10),
+ ghc (>= 8),
+ ghc-prof,
+ haskell-devscripts (>= 0.13),
+ libghc-hunit-dev (>= 1.2),
+ libghc-hunit-dev (<< 1.7),
+ libghc-quickcheck2-dev,
+ libghc-test-framework-dev (>= 0.2.0),
+ libghc-test-framework-dev (<< 0.9),
+ libghc-test-framework-hunit-dev (<< 0.4),
+ libghc-test-framework-hunit-dev (>= 0.2.0),
+ libghc-test-framework-quickcheck2-dev (<< 0.4),
+ libghc-test-framework-quickcheck2-dev (>= 0.2.5),
+Build-Depends-Indep:
+ ghc-doc,
+Standards-Version: 4.5.0
+Homepage: http://hub.darcs.net/ganesh/bytestring-handle
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-bytestring-handle
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-bytestring-handle]
+X-Description: ByteString-backed Handles
+ These are two functions to treat ByteStrings as file handles.
+
+Package: libghc-bytestring-handle-dev
+Architecture: any
+Depends:
+ ${haskell:Depends},
+ ${misc:Depends},
+ ${shlibs:Depends},
+Recommends:
+ ${haskell:Recommends},
+Suggests:
+ ${haskell:Suggests},
+Conflicts:
+ ${haskell:Conflicts},
+Provides:
+ ${haskell:Provides},
+Description: ${haskell:ShortDescription}${haskell:ShortBlurb}
+ ${haskell:LongDescription}
+ .
+ ${haskell:Blurb}
+
+Package: libghc-bytestring-handle-prof
+Architecture: any
+Depends:
+ ${haskell:Depends},
+ ${misc:Depends},
+Recommends:
+ ${haskell:Recommends},
+Suggests:
+ ${haskell:Suggests},
+Conflicts:
+ ${haskell:Conflicts},
+Provides:
+ ${haskell:Provides},
+Description: ${haskell:ShortDescription}${haskell:ShortBlurb}
+ ${haskell:LongDescription}
+ .
+ ${haskell:Blurb}
+
+Package: libghc-bytestring-handle-doc
+Architecture: all
+Section: doc
+Depends:
+ ${haskell:Depends},
+ ${misc:Depends},
+Recommends:
+ ${haskell:Recommends},
+Suggests:
+ ${haskell:Suggests},
+Conflicts:
+ ${haskell:Conflicts},
+Description: ${haskell:ShortDescription}${haskell:ShortBlurb}
+ ${haskell:LongDescription}
+ .
+ ${haskell:Blurb}

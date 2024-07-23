@@ -2,11 +2,13 @@ Index: b/bytestring-handle.cabal
 ===================================================================
 --- a/bytestring-handle.cabal
 +++ b/bytestring-handle.cabal
-@@ -18,7 +18,7 @@ library
+@@ -17,8 +17,8 @@ library
+   other-modules:
                         Data.ByteString.Handle.Read
                         Data.ByteString.Handle.Write
-   build-depends:       bytestring >= 0.9.1.5 && < 0.11,
+-  build-depends:       bytestring >= 0.9.1.5 && < 0.11,
 -                       base >= 4.2 && < 4.11
++  build-depends:       bytestring >= 0.9.1.5,
 +                       base >= 4.2 && < 5
    hs-source-dirs:      src
  
@@ -21,7 +23,8 @@ Index: b/bytestring-handle.cabal
                    HUnit >= 1.2 && < 1.7,
                    test-framework-hunit >= 0.2.0 && < 0.4,
                    test-framework >= 0.2.0 && < 0.9,
-                   bytestring >= 0.9.1.5 && < 0.11,
+-                  bytestring >= 0.9.1.5 && < 0.11,
 -                  base >= 4.2 && < 4.11,
++                  bytestring >= 0.9.1.5,
 +                  base >= 4.2 && < 5,
                    bytestring-handle

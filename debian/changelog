@@ -1,3 +1,18 @@
+haskell-bytestring-handle (0.1.0.6-deepin2) unstable; urgency=medium
+
+  * chore: Sync by https://github.com/deepin-community/.github/commit/abc7bc17a0e8d6c52a5865e412836125caa01832
+    Thanks to deepin-community-bot
+  * sync: sync obs workflows
+  * chore(CI): Update obs tag build workflow
+    Thanks to deepin-ci-robot
+  * chore(CI): remove old obs workflow file
+    Thanks to deepin-ci-robot
+  * chore(CI): Add OWNERS file for auto review or assign
+    Thanks to deepin-ci-robot
+  * chore: Bump bytestring version to > 0.9
+
+ -- hudeng <hudeng@deepin.org>  Tue, 23 Jul 2024 10:09:20 +0800
+
 haskell-bytestring-handle (0.1.0.6-deepin1) unstable; urgency=medium
 
   * Rebuild
